@@ -2,7 +2,7 @@ script: make
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get -y asciidoctor asciidoctor-pdf
+  - sudo apt-get install -y asciidoctor asciidoctor-pdf
 
 deploy:
   local_dir: dist
