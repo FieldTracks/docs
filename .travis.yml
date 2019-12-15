@@ -3,6 +3,7 @@ addons:
   apt:
     - asciidoctor
 
+script: make
 
 deploy:
   local_dir: dist
