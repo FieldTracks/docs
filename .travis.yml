@@ -1,8 +1,8 @@
-script: make
+dist: bionic
+addons:
+  apt:
+    - asciidoctor
 
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y asciidoctor ruby-asciidoctor-pdf
 
 deploy:
   local_dir: dist
