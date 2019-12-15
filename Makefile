@@ -16,7 +16,7 @@ docs.wiki/Home.asciidoc:
 dist/%: docs.wiki/Home.asciidoc
 	mkdir -p dist/html/$*
 	mkdir -p dist/pdf/$*
-	asciidoctor -b html5 docs.wiki/$*.asciidoc -D dist/html/$*
+	asciidoctor -b html5 docs.wiki/$*.asciidoc -D dist/html
 	#asciidoctor-pdf docs.wiki/$*.asciidoc -D dist/pdf/$*
 
 clean:

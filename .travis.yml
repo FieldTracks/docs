@@ -1,8 +1,6 @@
-dist: bionic
 addons:
   apt:
     - asciidoctor
-
 script: make
 
 deploy:
